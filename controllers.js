@@ -5,3 +5,7 @@ app.controller('homeController', ['$scope',
 app.controller('projectController', ['$scope',
   function($scope) {
   }]);
+
+app.controller('testimonialController', ['$scope',
+  function($scope) {
+}]);

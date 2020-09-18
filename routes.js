@@ -17,6 +17,10 @@ app.config(function ($routeProvider) {
         },
         controller: 'learnjsController'
     }).
+    when('/testimonial', {
+        templateUrl: 'pages/testimonial.html',
+        controller: 'testimonialController'
+    }).
     otherwise('/');
     
 });
