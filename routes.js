@@ -21,6 +21,10 @@ app.config(function ($routeProvider) {
         templateUrl: 'pages/testimonial.html',
         controller: 'testimonialController'
     }).
+    when('/tools', {
+        templateUrl: 'pages/tools.html',
+        controller: 'toolsController'
+    }).
     otherwise('/');
     
 });

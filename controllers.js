@@ -9,3 +9,6 @@ app.controller('projectController', ['$scope',
 app.controller('testimonialController', ['$scope',
   function($scope) {
 }]);
+app.controller('toolsController', ['$scope',
+  function($scope) {
+}]);
