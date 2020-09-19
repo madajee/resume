@@ -76,3 +76,9 @@ body {
   width: 500px;
   height: 350px;
 }
+
+@media screen and (max-width: 992px) {
+  footer{
+    display: none;
+  }
+}
