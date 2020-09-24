@@ -19,3 +19,26 @@ app.directive("customFooter", function(){
         }
     }
 });
+
+// Home Page
+app.directive("homeTimeline", function(){
+    return {
+        restrict: 'E',
+        templateUrl: 'pages/directives/home-timeline.html',
+        replace: true
+    }
+});
+
+// Testimonial Page
+app.directive("testimonialImgRow", function(){
+    return {
+        restrict: 'E',
+        templateUrl: 'pages/directives/testimonial-img-row.html',
+        replace: true,
+        scope:{
+            imagecol1:"@",
+            imagecol2:"@",
+            imagecol3:"@"
+        }
+    }
+});
