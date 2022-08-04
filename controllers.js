@@ -17,7 +17,7 @@ app.controller('testimonialController', ['$scope',
   function($scope) {
     $scope.images = 
     [
-      'https://res.cloudinary.com/madajee/image/upload/v1658083400/Certifications/mule4-certificate.png',
+      'https://res.cloudinary.com/madajee/image/upload/v1659626071/Certifications/mule4-certificate.jpg',
       'https://udemy-certificate.s3.amazonaws.com/image/UC-O6Z2ZF66.jpg',
       'https://res.cloudinary.com/madajee/image/upload/v1600437489/Certifications/PSM-I.png',
       'https://udemy-certificate.s3.amazonaws.com/image/UC-KRWDC2Y4.jpg',
