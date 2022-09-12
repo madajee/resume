@@ -27,6 +27,11 @@ body {
     border-radius: 50%
   }
 
+  .scenic-img {
+    width: inherit;
+    height: inherit;
+  }
+
   ul.timeline {
     list-style-type: none;
     position: relative;
