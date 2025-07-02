@@ -18,6 +18,7 @@ app.controller('testimonialController', ['$scope',
   function($scope) {
     $scope.images = 
     [
+      'https://res.cloudinary.com/madajee/image/upload/v1751481567/Certifications/Cert6326157_AgentforceSpecialist_20250702.png',
       'https://res.cloudinary.com/madajee/image/upload/v1722870147/JMadaan_MuleSoftDeveloper-I_20240710..png',
       'https://res.cloudinary.com/madajee/image/upload/v1722869957/JMadaan_MuleSoftAssociate_20240710.png',
       'https://res.cloudinary.com/madajee/image/upload/v1659626071/Certifications/mule4-certificate.jpg',
